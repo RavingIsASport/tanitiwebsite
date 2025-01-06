@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* template components */
+/* heading */
+#head {
+  display: flex;
+  justify-content: space-between;
+  background-color: cadetblue;
+  padding: 10px;
+}
+header {
+  margin: auto;
+  font-size: 48px;
+}
+nav {
+  display: flex;
+  font-size: 20px;
+  margin: auto;
+  gap: 3rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: white;
+}
+/* footer */
+footer {
+  background-color: cadetblue;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Index page */
+/* hero img */
+#hero {
+  background-image: url("./assets/beach.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  filter: grayscale(10%);
+}
+h1 {
+  margin: auto;
+  font-size: 64px;
+  color: white;
+}
+
+/* main section */
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 8em;
+}
+h2 {
+  font-size: 34px;
+  color: cadetblue;
+  align-self: flex-start;
+}
+p {
+  font-size: 20px;
+  margin: 2rem 0;
+  padding: 0 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+img {
+  width: 50%;
+  align-self: flex-end;
+  border-radius: 10%;
+  padding: 2rem;
+}
+
+/* Itinerary page */
+/* hero imgs */
+#mainInfo {
+  width: 80%;
+}
+#infoImg {
+  display: flex;
+  justify-content: space-around;
+}
+#header2 {
+  font-size: 34px;
+  color: cadetblue;
+  margin: 2rem;
+}
+.img2 {
+  width: 40%;
+}
+h3 {
+  font-size: 24px;
+  color: cadetblue;
+  margin: 1rem;
+  text-align: center;
+}
+h4 {
+  font-size: 20px;
+  color: rgb(24, 100, 24);
+  margin: 0.5rem;
+}
+ul {
+  font-size: 20px;
+  margin: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+li {
+  margin: 1rem;
+}
+#mainInfo img {
+  width: 30%;
+  border-radius: 15%;
+}
